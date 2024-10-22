@@ -63,7 +63,7 @@
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1043833846> ;
     acdh:hasRightsHolder <https://orcid.org/0000-0002-9512-4051> .
 
-<https://id.acdh.oeaw.ac.at/openatlas/connec/title-image.svg> a acdh:Resource ;
+<https://id.acdh.oeaw.ac.at/openatlas/connec/title-image.jpg> a acdh:Resource ;
     acdh:hasTitle """Titelbild zu: Connec"""@de ;
     acdh:hasPid "https://hdl.handle.net/21.11115/0000-0012-D21F-D" ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
