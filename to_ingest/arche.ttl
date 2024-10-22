@@ -31,7 +31,7 @@
 
 <https://id.acdh.oeaw.ac.at/openatlas/connec/E21.ttl> a acdh:Resource ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
-    acdh:hasTitle "E21 - Persons"@de;
+    acdh:hasTitle "crm:E21 - Persons"@de;
     acdh:hasDescription """CIDOC CRM serialisation of E21 (Person) mentioned in the project"""@de ;
     acdh:hasUrl "https://discover-connec.openatlas.eu/list?view_classes=actor" ; 
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> ;

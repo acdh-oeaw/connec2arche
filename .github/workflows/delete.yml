@@ -12,7 +12,7 @@ jobs:
       ARCHE_PASSWORD: ${{secrets.ARCHE_PASSWORD}}
       ARCHE: https://arche-dev.acdh-dev.oeaw.ac.at/api
       TOPCOLID: https://id.acdh.oeaw.ac.at/openatlas/connec
-      TITLEIMAGE: https://id.acdh.oeaw.ac.at/openatlas/connec/title-image.svg
+      TITLEIMAGE: https://id.acdh.oeaw.ac.at/openatlas/connec/title-image.jpg
 
     steps:
     - name: Perform Checkout
