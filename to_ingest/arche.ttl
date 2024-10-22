@@ -29,7 +29,7 @@
     acdh:hasRightsHolder <https://orcid.org/0000-0002-9512-4051> .
 
 
-<https://id.acdh.oeaw.ac.at/openatlas/connec/E21.xml> a acdh:Resource ;
+<https://id.acdh.oeaw.ac.at/openatlas/connec/E21.ttl> a acdh:Resource ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
     acdh:hasTitle "E21 - Persons"@de;
     acdh:hasDescription """CIDOC CRM serialisation of E21 (Person) mentioned in the project"""@de ;
@@ -46,7 +46,7 @@
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1043833846> ;
     acdh:hasRightsHolder <https://orcid.org/0000-0002-9512-4051> .
 
-<https://id.acdh.oeaw.ac.at/openatlas/connec/E18.xml> a acdh:Resource ;
+<https://id.acdh.oeaw.ac.at/openatlas/connec/E18.ttl> a acdh:Resource ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
     acdh:hasTitle "crm:E18 Physical Thing"@de;
     acdh:hasDescription """CIDOC CRM serialisation of crm:E18 Physical Things, mentioned in the project"""@de ;
