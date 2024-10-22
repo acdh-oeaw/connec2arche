@@ -1,0 +1,78 @@
+@prefix acdh: <https://vocabs.acdh.oeaw.ac.at/schema#> .
+@prefix acdhi: <https://id.acdh.oeaw.ac.at/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://id.acdh.oeaw.ac.at/slehecka> a acdh:Person ;
+    acdh:hasTitle "Sandra Lehacka"@de .
+
+<https://orcid.org/0000-0002-9512-4051> a acdh:Person ;
+    acdh:hasTitle "Victoria Leonard"@en .
+
+<https://d-nb.info/gnd/1043833846> a acdh:Person ;
+    acdh:hasTitle "Peter Andorfer"@de .
+
+
+<https://id.acdh.oeaw.ac.at/openatlas/connec> a acdh:TopCollection;
+    acdh:hasTitle "Connec"@en ;
+    acdh:hasDescription """The CONNEC database features four letter collections (386-603 CE), including Augustine, Paulinus, Avitus, and Gregory. The database foregrounds their spatial worlds and social connections. It contains letters, actors and groups, and locations."""@en ;
+    acdh:hasUrl "https://discover-connec.openatlas.eu/" ;
+    acdh:hasPrincipalInvestigator <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContact <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasCurator <https://d-nb.info/gnd/1043833846> ;
+    acdh:hasDepositor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContributor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    acdh:hasLicensor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasOwner <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasMetadataCreator <https://d-nb.info/gnd/1043833846> ;
+    acdh:hasSubject "History"@de ;
+    acdh:hasRightsHolder <https://orcid.org/0000-0002-9512-4051> .
+
+
+<https://id.acdh.oeaw.ac.at/openatlas/connec/E21.xml> a acdh:Resource ;
+    acdh:isPartOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
+    acdh:hasTitle "E21 - Persons"@de;
+    acdh:hasDescription """CIDOC CRM serialisation of E21 (Person) mentioned in the project"""@de ;
+    acdh:hasUrl "https://discover-connec.openatlas.eu/list?view_classes=actor" ; 
+    acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> ;
+    acdh:hasDepositor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContributor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContributor <https://id.acdh.oeaw.ac.at/luntner> ;
+    acdh:hasContributor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContributor <https://d-nb.info/gnd/11082959X> ;  
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    acdh:hasLicensor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasOwner <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasMetadataCreator <https://d-nb.info/gnd/1043833846> ;
+    acdh:hasRightsHolder <https://orcid.org/0000-0002-9512-4051> .
+
+<https://id.acdh.oeaw.ac.at/openatlas/connec/E18.xml> a acdh:Resource ;
+    acdh:isPartOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
+    acdh:hasTitle "crm:E18 Physical Thing"@de;
+    acdh:hasDescription """CIDOC CRM serialisation of crm:E18 Physical Things, mentioned in the project"""@de ;
+    acdh:hasUrl "https://discover-connec.openatlas.eu/list?view_classes=actor" ; 
+    acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/dataset> ;
+    acdh:hasDepositor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContributor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContributor <https://id.acdh.oeaw.ac.at/luntner> ;
+    acdh:hasContributor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasContributor <https://d-nb.info/gnd/11082959X> ;  
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    acdh:hasLicensor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasOwner <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasMetadataCreator <https://d-nb.info/gnd/1043833846> ;
+    acdh:hasRightsHolder <https://orcid.org/0000-0002-9512-4051> .
+
+<https://id.acdh.oeaw.ac.at/openatlas/connec/title-image.svg> a acdh:Resource ;
+    acdh:hasTitle """Titelbild zu: Connec"""@de ;
+    acdh:hasPid "https://hdl.handle.net/21.11115/0000-0012-D21F-D" ;
+    acdh:isPartOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
+    acdh:isTitleImageOf <https://id.acdh.oeaw.ac.at/openatlas/connec> ;
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    acdh:hasLicensor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasCreator <https://id.acdh.oeaw.ac.at/slehecka> ;
+    acdh:hasOwner <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
+    acdh:hasDepositor <https://orcid.org/0000-0002-9512-4051> ;
+    acdh:hasMetadataCreator <https://d-nb.info/gnd/1043833846> ;
+    acdh:hasRightsHolder <https://orcid.org/0000-0002-9512-4051> .

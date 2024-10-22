@@ -1,0 +1,23 @@
+name: Delete data from ARCHE
+
+on:
+  workflow_dispatch
+
+jobs:
+  build_pages:
+    name: Delete data from ARCHE 
+    runs-on: ubuntu-latest
+    env:
+      ARCHE_USER: pandorfer
+      ARCHE_PASSWORD: ${{secrets.ARCHE_PASSWORD}}
+      ARCHE: https://arche-dev.acdh-dev.oeaw.ac.at/api
+      TOPCOLID: https://id.acdh.oeaw.ac.at/openatlas/connec
+      TITLEIMAGE: https://id.acdh.oeaw.ac.at/openatlas/connec/title-image.svg
+
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v4
+    - name: delete data
+      run: ./arche__delete.sh
+    
+        

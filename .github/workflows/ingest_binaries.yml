@@ -1,0 +1,26 @@
+name: ARCHE-Binaries-Import
+
+on:
+  workflow_dispatch
+
+jobs:
+  build_pages:
+    name: Ingest Binary-Data into ARCHE
+    runs-on: ubuntu-latest
+    env:
+      ARCHE_USER: pandorfer
+      ARCHE_PASSWORD: ${{secrets.ARCHE_PASSWORD}}
+      ARCHE: https://arche-dev.acdh-dev.oeaw.ac.at/api
+      TOPCOLID: https://id.acdh.oeaw.ac.at/openatlas/connec
+
+    steps:
+    - name: Perform Checkout
+      uses: actions/checkout@v4
+    - name: Download binary data
+      run: ./fetch_data.sh
+    - name: remove arche.ttl
+      run: rm to_ingest/arche.ttl
+    - name: run binaries import
+      run: ./arche__ingest_binaries.sh
+    
+        
